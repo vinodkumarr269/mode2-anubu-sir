@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Use this file to deploy some handlers/chains and services      --><!-- Two ways to do this:                                           --><!--   java org.apache.axis.client.AdminClient deploy.wsdd          --><!--      after the axis server is running                          --><!-- or                                                             --><!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   --><!--      from the same directory that the Axis engine runs         --><deployment xmlns="http://xml.apache.org/axis/wsdd/" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from VinodService WSDL service -->
+
+  <service name="Vinod" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://demo.hcl.com"/>
+      <parameter name="wsdlServiceElement" value="VinodService"/>
+      <parameter name="schemaQualified" value="http://demo.hcl.com"/>
+      <parameter name="wsdlServicePort" value="Vinod"/>
+      <parameter name="className" value="com.hcl.demo.Vinod"/>
+      <parameter name="wsdlPortType" value="Vinod"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation xmlns:operNS="http://demo.hcl.com" xmlns:retNS="http://demo.hcl.com" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="getVinod" qname="operNS:getVinod" returnQName="retNS:getVinodReturn" returnType="rtns:int" soapAction="">
+      </operation>
+      <parameter name="allowedMethods" value="getVinod"/>
+
+  </service>
+</deployment>

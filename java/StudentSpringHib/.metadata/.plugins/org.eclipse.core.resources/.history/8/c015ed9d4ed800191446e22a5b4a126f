@@ -1,0 +1,7 @@
+package com.hcl.fiEmploy;
+@FunctionalInterface
+public interface EmployeeInterface1 {
+	public Employee empNo(int no);
+	public Employee empName(String name);
+
+}

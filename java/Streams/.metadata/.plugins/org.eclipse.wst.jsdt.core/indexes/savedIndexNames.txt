@@ -1,0 +1,8 @@
+INDEX VERSION 1.3+C:\hcl\java\Streams\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1794778147.index
+1569858481.index
+3574339953.index
+1471794914.index
+981837304.index
+144250995.index
+132812145.index

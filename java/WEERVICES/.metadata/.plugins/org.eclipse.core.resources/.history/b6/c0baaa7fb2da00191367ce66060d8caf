@@ -1,0 +1,26 @@
+package com.hcl.demo;
+
+import java.rmi.RemoteException;
+
+public class MainApplication {
+
+	public static void main(String[] args) {
+		int result=0;
+		int result1=0;
+		CalculatorProxy c=new CalculatorProxy();
+		VinodProxy v =new VinodProxy();
+		try {
+			result=c.mul(2,4);
+			result1=c.add(2, 3);
+			System.out.println("multiplication "+result);
+			System.out.println("addition "+result1);
+			System.out.println(v.getVinod());
+		} catch (RemoteException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	
+	}
+
+}

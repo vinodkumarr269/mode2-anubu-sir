@@ -1,0 +1,10 @@
+127.0.0.1 - - [12/Sep/2019:14:36:51 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:14:36:51 +0530] "GET /SpringMVCHibernateWithSpringSecurityExample/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:14:36:52 +0530] "GET /SpringMVCHibernateWithSpringSecurityExample/login HTTP/1.1" 200 1913
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:14:36:52 +0530] "GET /SpringMVCHibernateWithSpringSecurityExample/static/css/app.css HTTP/1.1" 200 1721
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:14:36:52 +0530] "GET /SpringMVCHibernateWithSpringSecurityExample/static/css/bootstrap.css HTTP/1.1" 200 141414
+127.0.0.1 - - [12/Sep/2019:14:37:25 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:14:37:25 +0530] "GET /SpringWebwithSpringSecurity/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:14:37:26 +0530] "GET /SpringWebwithSpringSecurity/login HTTP/1.1" 200 470
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:14:37:41 +0530] "GET /SpringMVCHibernateCRUD/ HTTP/1.1" 200 546
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:14:37:42 +0530] "GET /SpringMVCHibernateCRUD/newStudent HTTP/1.1" 500 7294

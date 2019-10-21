@@ -1,0 +1,14 @@
+package com.hcl.fiEmploy;
+
+import com.hcl.fi.Employee;
+import com.hcl.fi.EmpolyeeInterface;
+
+public class EmployeeMain {
+public static void main(String[] args) {
+EmployeeInterface emp=Employee::new;
+com.hcl.fiEmploy.Employee e=emp.empNo(1);
+Employee e2=emp.empName("vinod");
+
+
+}
+}

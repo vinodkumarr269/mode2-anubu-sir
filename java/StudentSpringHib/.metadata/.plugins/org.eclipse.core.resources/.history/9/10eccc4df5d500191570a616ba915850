@@ -1,0 +1,6 @@
+package com.hcl.demo;
+
+public interface Biggest {
+	public int big(int n1,int n2);
+	public int small (int n1,int n2);
+}

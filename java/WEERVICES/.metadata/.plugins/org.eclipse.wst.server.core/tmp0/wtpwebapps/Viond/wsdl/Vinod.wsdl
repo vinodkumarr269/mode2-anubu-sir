@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://demo.hcl.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://demo.hcl.com" xmlns:intf="http://demo.hcl.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://demo.hcl.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="getVinod">
+    <complexType/>
+   </element>
+   <element name="getVinodResponse">
+    <complexType>
+     <sequence>
+      <element name="getVinodReturn" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="getVinodResponse">
+
+      <wsdl:part element="impl:getVinodResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getVinodRequest">
+
+      <wsdl:part element="impl:getVinod" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="Vinod">
+
+      <wsdl:operation name="getVinod">
+
+         <wsdl:input message="impl:getVinodRequest" name="getVinodRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getVinodResponse" name="getVinodResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="VinodSoapBinding" type="impl:Vinod">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="getVinod">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getVinodRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getVinodResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="VinodService">
+
+      <wsdl:port binding="impl:VinodSoapBinding" name="Vinod">
+
+         <wsdlsoap:address location="http://192.168.1.9:8512/Viond/services/Vinod"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

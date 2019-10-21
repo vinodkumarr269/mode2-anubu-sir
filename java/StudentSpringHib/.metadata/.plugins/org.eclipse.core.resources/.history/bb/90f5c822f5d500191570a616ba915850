@@ -1,0 +1,9 @@
+package com.hcl.demo;
+
+public class BiggestLambdaExpression {
+public static void main(String[] args) {
+	Biggest b= (var1,var2)-> { int max = var1<var2?var1:var2; return max;};
+	int r=b.big(20, 10);
+	System.out.println(r);
+}
+}

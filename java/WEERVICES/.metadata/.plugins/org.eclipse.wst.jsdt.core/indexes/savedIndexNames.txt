@@ -1,0 +1,6 @@
+INDEX VERSION 1.3+C:\hcl\java\WEERVICES\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3386475704.index
+3126424600.index
+179783206.index
+2320389829.index
+2442931847.index

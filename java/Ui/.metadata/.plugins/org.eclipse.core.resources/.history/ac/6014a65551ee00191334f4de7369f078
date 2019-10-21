@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+.div1{
+float:left;
+width:100px;
+padding:100px;
+text-align:center;
+overflow: auto;
+background-color: red;
+}
+div:HOVER {
+text-decoration:blink;
+	background-color: yellow;
+}
+div:ACTIVE {
+	background-color: green;
+}
+
+</style>
+</head>
+<body>
+
+<div class="div1"">
+<p>gdgd<p>
+</div>
+
+
+
+</body>
+</html>

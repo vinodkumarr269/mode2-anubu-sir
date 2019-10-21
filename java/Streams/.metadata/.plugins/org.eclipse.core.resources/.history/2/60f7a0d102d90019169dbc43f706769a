@@ -1,0 +1,13 @@
+package com.hcl.demo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ForEachDemo {
+
+	public static void main(String[] args) {
+		List<Employee> list=new ArrayList<Employee>();
+		list.add(new Employee(10,"apple",1010f,'E'));
+	}
+
+}

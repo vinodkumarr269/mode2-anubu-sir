@@ -1,0 +1,3 @@
+browsers=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<web-browsers current\="0">\r\n<system/>\r\n<external location\="C\:\\Program Files\\Internet Explorer\\iexplore.exe" name\="Internet Explorer"/>\r\n</web-browsers>
+eclipse.preferences.version=1
+internalWebBrowserHistory=http\://localhost\:8087/SpringMVCHibernateCRUD/|*|http\://localhost\:8087/SpringMVCHibernateCRUD/newEmployee|*|http\://localhost\:8087/SpringMVCHibernateCRUD/editEmployee?id\=25|*|http\://localhost\:8087/StudentSpringHiber/addStudent.jsp|*|http\://localhost\:8087/StudentSpringHiber/addStudent.jsp?rollno\=&sname\=&age\=&date\=&finalscore\=|*|

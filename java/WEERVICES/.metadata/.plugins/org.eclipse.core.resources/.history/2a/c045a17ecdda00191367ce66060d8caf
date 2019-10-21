@@ -1,0 +1,19 @@
+package com.hcl.demo;
+
+import java.rmi.RemoteException;
+
+public class MainMethod {
+	public static void main(String[] args) {
+		HelloWorldProxy h=new HelloWorldProxy();
+		try {
+			System.out.println(h.sayHelloWorld("vinod"));
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			System.out.println("name is required");
+		} catch (RemoteException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

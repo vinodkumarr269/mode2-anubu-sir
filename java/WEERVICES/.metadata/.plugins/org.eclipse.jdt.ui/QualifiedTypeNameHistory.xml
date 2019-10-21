@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.hcl.webService.CalculatorProxy"/>
+<fullyQualifiedTypeName name="com.hcl.demo.CalculatorProxy"/>
+<fullyQualifiedTypeName name="org.apache.axis.message.SAXOutputter"/>
+<fullyQualifiedTypeName name="com.hcl.soap.SoapService"/>
+<fullyQualifiedTypeName name="com.hcl.soap.SoapProxy"/>
+<fullyQualifiedTypeName name="com.hcl.demo.VinodProxy"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.javacodegeeks.examples.jaxWsAnnotations.webservice.WSAnnotationWebServiceIProxy"/>
+<fullyQualifiedTypeName name="com.hcl.helloservice.HelloProxy"/>
+<fullyQualifiedTypeName name="javax.jws.WebService"/>
+<fullyQualifiedTypeName name="javax.jws.WebMethod"/>
+<fullyQualifiedTypeName name="com.hcl.demo.HelloWorld"/>
+<fullyQualifiedTypeName name="com.hcl.demo.HelloWorldProxy"/>
+</qualifiedTypeNameHistroy>

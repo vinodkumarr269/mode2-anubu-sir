@@ -1,0 +1,12 @@
+package com.hcl.hib;
+
+import java.util.Date;
+
+public class CourseList {
+	private String courseno;
+	private int duration;
+	private Date startDate;
+	private Date endDate;
+	private String HOD;
+
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+.div1{
+float:inherit;
+width:100px;
+height:100px;
+text-align:center;
+
+
+.
+}
+
+</style>
+</head>
+<body>
+
+<div class="div1" style="background-color:red">
+<p style="padding:50px">dsfdsfdfgfdf<p>
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+127.0.0.1 - - [16/Sep/2019:09:14:25 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [16/Sep/2019:09:14:26 +0530] "GET /SpringMVCHibernateCRUD/ HTTP/1.1" 404 992
+127.0.0.1 - - [16/Sep/2019:09:30:27 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [16/Sep/2019:09:30:29 +0530] "GET /SpringMVCHibernateCRUD/ HTTP/1.1" 200 1030
+0:0:0:0:0:0:0:1 - - [16/Sep/2019:09:30:32 +0530] "GET /SpringMVCHibernateCRUD/addMarks HTTP/1.1" 405 1088
+0:0:0:0:0:0:0:1 - - [16/Sep/2019:09:34:39 +0530] "GET /SpringMVCHibernateCRUD/ HTTP/1.1" 200 1030
+0:0:0:0:0:0:0:1 - - [16/Sep/2019:09:34:42 +0530] "GET /SpringMVCHibernateCRUD/addMarks HTTP/1.1" 405 1088
+0:0:0:0:0:0:0:1 - - [16/Sep/2019:09:40:52 +0530] "GET /SpringMVCHibernateCRUD/newStudent HTTP/1.1" 200 326
+0:0:0:0:0:0:0:1 - - [16/Sep/2019:09:40:58 +0530] "GET /SpringMVCHibernateCRUD/newStudent HTTP/1.1" 200 326

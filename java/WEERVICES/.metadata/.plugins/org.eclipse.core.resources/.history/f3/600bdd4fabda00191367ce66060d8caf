@@ -1,0 +1,20 @@
+package com.hcl.soap;
+
+import java.rmi.RemoteException;
+
+import com.hcl.demo.CalculatorProxy;
+public class MainApplication {
+
+	public static void main(String[] args) {
+		CalculatorProxy c=new CalculatorProxy();
+		try {
+			System.out.println(c.getName);
+		} catch (RemoteException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	
+	}
+
+}

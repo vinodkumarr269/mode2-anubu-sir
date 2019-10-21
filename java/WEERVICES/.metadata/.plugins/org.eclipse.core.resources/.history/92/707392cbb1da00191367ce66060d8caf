@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//src/com/hcl/demo/Calculator.java=UTF-8
+encoding//src/com/hcl/demo/CalculatorService.java=UTF-8
+encoding//src/com/hcl/demo/CalculatorServiceLocator.java=UTF-8
+encoding//src/com/hcl/demo/CalculatorSoapBindingStub.java=UTF-8
+encoding//src/com/hcl/demo/VinodService.java=UTF-8
+encoding//src/com/hcl/soap/Soap.java=UTF-8
+encoding//src/com/hcl/soap/SoapService.java=UTF-8
+encoding//src/com/hcl/soap/SoapServiceLocator.java=UTF-8
+encoding//src/com/hcl/soap/SoapSoapBindingStub.java=UTF-8
+encoding//src/com/hcl/webService/Calculator.java=UTF-8
+encoding//src/com/hcl/webService/CalculatorService.java=UTF-8
+encoding//src/com/hcl/webService/CalculatorServiceLocator.java=UTF-8
+encoding//src/com/hcl/webService/CalculatorSoapBindingStub.java=UTF-8

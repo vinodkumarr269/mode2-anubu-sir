@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+.dot {
+
+  width: 100px;
+height:100px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  
+}
+</style>
+</head>
+<body>
+<span class="dot"> <p style="text-align: center">Hello </p></span>
+
+</body>
+</html>

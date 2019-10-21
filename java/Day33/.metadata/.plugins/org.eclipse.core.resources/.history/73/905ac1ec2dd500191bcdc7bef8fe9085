@@ -1,0 +1,13 @@
+package com.hcl.demo;
+
+import java.text.DateFormat;
+import java.util.Locale;
+
+public class Date {
+	
+	public static void main(String[] args) {
+		DateFormat df=DateFormat.getDateInstance(DateFormat.SHORT,new Locale("fr", "FR"));
+		System.out.println("short "+df.format(new Date()));
+	}
+
+}

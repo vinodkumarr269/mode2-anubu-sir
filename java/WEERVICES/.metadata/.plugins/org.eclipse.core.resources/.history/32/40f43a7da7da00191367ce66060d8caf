@@ -1,0 +1,9 @@
+package com.hcl.soap;
+
+public class Soap {
+	public String getName(String name,String email,int sap)
+	{
+		return  name+email+sap;
+	}
+
+}

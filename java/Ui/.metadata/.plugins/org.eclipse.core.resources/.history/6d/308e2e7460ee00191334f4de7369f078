@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+.dot {
+
+  width: 150px;
+height:150px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  
+}
+span:HOVER {
+	background-color: black;
+}
+</style>
+</head>
+<body>
+<span class="dot"> <p style="text-align: center;padding: 50px">Hello </p></span>
+<span class="dot"> <p style="text-align: center;padding: 50px">Hello1 </p></span>
+
+</body>
+</html>

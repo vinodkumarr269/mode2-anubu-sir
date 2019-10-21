@@ -1,0 +1,6 @@
+package com.hcl.demo;
+
+public interface Biggest {
+	public void big();
+
+}

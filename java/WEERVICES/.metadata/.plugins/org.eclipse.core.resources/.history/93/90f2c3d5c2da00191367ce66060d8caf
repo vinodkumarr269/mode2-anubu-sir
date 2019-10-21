@@ -1,0 +1,16 @@
+package com.javacodegeeks.examples.jaxWsAnnotations.webservice;
+
+import java.rmi.RemoteException;
+
+public class MainMethd {
+	public static void main(String[] args) {
+	WSAnnotationWebServiceIProxy vinod = new WSAnnotationWebServiceIProxy();
+	try {
+		System.out.println(vinod.celsiusToFarhenheit(38));
+	} catch (RemoteException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	}
+
+}

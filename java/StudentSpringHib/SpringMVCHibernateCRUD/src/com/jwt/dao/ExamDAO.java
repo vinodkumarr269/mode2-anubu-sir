@@ -1,0 +1,9 @@
+package com.jwt.dao;
+
+import com.jwt.model.Exam;
+import com.jwt.model.Student;
+
+public interface ExamDAO {
+	public void addExam(Exam exam);
+
+}

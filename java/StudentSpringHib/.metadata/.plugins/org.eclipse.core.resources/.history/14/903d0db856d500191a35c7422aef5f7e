@@ -1,0 +1,19 @@
+package com.jwt.service;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.jwt.dao.ExamDAO;
+import com.jwt.model.Exam;
+@Service
+@Transactional
+public class ExamServiceImpl implements ExamService{
+
+	@Override
+	@Transactional
+	public void addExam1(Exam exam) {
+		ExamDAO.addExam(exam);
+		
+	}
+
+}

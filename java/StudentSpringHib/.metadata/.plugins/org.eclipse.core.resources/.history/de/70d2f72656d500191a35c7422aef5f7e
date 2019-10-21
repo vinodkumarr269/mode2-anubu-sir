@@ -1,0 +1,15 @@
+package com.jwt.dao;
+
+import org.springframework.stereotype.Repository;
+
+import com.jwt.model.Exam;
+@Repository
+public class ExamDAOImpl implements ExamDAO{
+
+	@Override
+	public void addExam(Exam exam) {
+		
+		
+	}
+
+}

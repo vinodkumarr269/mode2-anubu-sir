@@ -1,0 +1,10 @@
+package com.hcl.fi;
+
+public interface EmpolyeeInterface {
+	public Employee employMethod(int a,String b);
+
+	public Employee getEmployee(int i, String string);
+		
+	
+
+}

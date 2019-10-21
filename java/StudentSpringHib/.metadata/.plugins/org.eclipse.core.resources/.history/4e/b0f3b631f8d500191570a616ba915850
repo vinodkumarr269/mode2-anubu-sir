@@ -1,0 +1,7 @@
+package com.hcl.demo;
+
+public interface DefaultInterface {
+    public static  void printHello(){
+    	System.out.println("Hello Default");
+    }
+}

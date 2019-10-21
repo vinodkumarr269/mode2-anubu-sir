@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+div{
+float:left;
+width:100px;
+padding:100px;
+text-align:center;
+overflow: auto;
+}
+div:HOVER {
+	background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<div class="div1" >
+gdgd
+</div>
+
+
+
+</body>
+</html>

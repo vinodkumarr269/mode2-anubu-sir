@@ -1,0 +1,16 @@
+@CHARSET "ISO-8859-1";
+.one {
+  background-image: url(images/icon.png);
+  /* here we are applying a single background image to our first block level container element */
+  /* (could be anything, but it is a div in the live example. */
+}
+
+.two {
+  background-image: linear-gradient(to bottom, #aaa, #eee);
+  /* Here we are applying a linear gradient to our second block level container. */
+}
+
+.three {
+  background-image: url(images/icon.png), linear-gradient(to bottom, #aaa, #eee);
+  /* In this case we are applying both the background image and the gradient to our third block level container. */
+}

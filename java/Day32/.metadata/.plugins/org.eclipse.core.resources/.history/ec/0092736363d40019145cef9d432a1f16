@@ -1,0 +1,68 @@
+package com.jwt.model;
+
+import java.io.Serializable;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "EMP_TBL")
+public class Student implements Serializable {
+
+	private static final long serialVersionUID = -3465813074586302847L;
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private int id;
+	@Column
+	private int Rollno;
+
+	public int getRollno() {
+		return Rollno;
+	}
+
+	public void setRollno(int rollno) {
+		Rollno = rollno;
+	}
+
+	public String getSName() {
+		return SName;
+	}
+
+	public void setSName(String sName) {
+		SName = sName;
+	}
+
+	public int getAge() {
+		return Age;
+	}
+
+	public void setAge(int age) {
+		Age = age;
+	}
+
+	public String getGender() {
+		return Gender;
+	}
+
+	public void setGender(String gender) {
+		Gender = gender;
+	}
+
+	@Column
+	private String SName;
+
+	@Column
+	private int Age;
+
+	@Column
+	private String Gender;
+
+	
+	
+
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: inherit;
+  width: 33.33%;
+  padding: 10px;
+  height: 150px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Two Equal Columns</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#175681;">
+  <script type="text/javascript">
+ var i,j;
+ for(i=1; i <= 5; i++)
+ {
+  for(j=1; j<=i; j++)
+ {
+   
+   document.write(j);
+  }
+   document.write('<br />');
+  }
+    
+</script>
+  
+  </div>
+  <div class="column" style="background-color:#97585F;">
+    <script type="text/javascript">
+ var i,j;
+  for(i=5;i>=1;i--)
+    {
+        for(j=1;j<=i;j++)
+        {
+            document.write(i);
+  }
+   document.write('<br />');
+  }
+    
+</script>
+  </div>
+    <div class="column" style="background-color:#930D77;">
+    <h2>Column 3</h2>
+    <p>This is the third column with violet color..</p>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+package com.hcl.helloservice;
+
+public class MainMethod {
+
+	public static void main(String[] args) {
+		HelloProxy h=new HelloProxy();
+		System.out.println("client "+h.sayHello(vinod));
+
+	}
+
+}

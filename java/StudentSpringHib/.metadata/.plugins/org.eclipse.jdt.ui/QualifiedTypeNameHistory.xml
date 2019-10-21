@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="com.jwt.model.Exam"/>
+<fullyQualifiedTypeName name="com.jwt.dao.ExamDAO"/>
+<fullyQualifiedTypeName name="com.hcl.demo.MyInterface2"/>
+<fullyQualifiedTypeName name="com.hcl.demo.Myinterface3"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.hcl.demo.Biggest"/>
+<fullyQualifiedTypeName name="com.hcl.demo.DefaultInterface"/>
+<fullyQualifiedTypeName name="com.hcl.demo.DefaultExpression"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="com.jwt.service.ExamService"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.hcl.demo.MyInterface"/>
+<fullyQualifiedTypeName name="java.util.function.BiFunction"/>
+<fullyQualifiedTypeName name="com.hcl.fi.Calculator"/>
+</qualifiedTypeNameHistroy>

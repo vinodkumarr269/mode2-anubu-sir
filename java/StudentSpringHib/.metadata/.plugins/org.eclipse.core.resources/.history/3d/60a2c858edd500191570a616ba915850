@@ -1,0 +1,9 @@
+package com.hcl.demo;
+
+public class WithLambdaExpression {
+	public static void main(String[] args) {
+		MyInterface myInterface=()->{System.out.println("welcome lambda");};
+		myInterface.sayMethod();
+	}
+
+}

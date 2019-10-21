@@ -1,0 +1,30 @@
+<!-- Use this file to deploy some handlers/chains and services      -->
+<!-- Two ways to do this:                                           -->
+<!--   java org.apache.axis.client.AdminClient deploy.wsdd          -->
+<!--      after the axis server is running                          -->
+<!-- or                                                             -->
+<!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   -->
+<!--      from the same directory that the Axis engine runs         -->
+
+<deployment
+    xmlns="http://xml.apache.org/axis/wsdd/"
+    xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from SoapService WSDL service -->
+
+  <service name="Soap" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://soap.hcl.com"/>
+      <parameter name="wsdlServiceElement" value="SoapService"/>
+      <parameter name="schemaQualified" value="http://soap.hcl.com"/>
+      <parameter name="wsdlServicePort" value="Soap"/>
+      <parameter name="className" value="com.hcl.soap.SoapSoapBindingImpl"/>
+      <parameter name="wsdlPortType" value="Soap"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation name="getName" qname="operNS:getName" xmlns:operNS="http://soap.hcl.com" returnQName="retNS:getNameReturn" xmlns:retNS="http://soap.hcl.com" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+      </operation>
+      <operation name="getVinodKumar" qname="operNS:getVinodKumar" xmlns:operNS="http://soap.hcl.com" returnQName="retNS:getVinodKumarReturn" xmlns:retNS="http://soap.hcl.com" returnType="rtns:int" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+      </operation>
+      <parameter name="allowedMethods" value="getName getVinodKumar"/>
+
+  </service>
+</deployment>

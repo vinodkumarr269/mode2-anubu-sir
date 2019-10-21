@@ -1,0 +1,14 @@
+package com.hcl.demo;
+
+public class MultipleFunctionalInterface {
+
+	public static void main(String[] args) {
+		
+		MyInterface m=(var1)-> {return var1;};
+		String r=m.sayHello("vinod");
+		System.out.println(r);
+		
+		
+	}
+
+}

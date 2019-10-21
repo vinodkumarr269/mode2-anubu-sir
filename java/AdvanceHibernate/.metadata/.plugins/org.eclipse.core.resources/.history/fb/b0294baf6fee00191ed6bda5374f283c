@@ -1,0 +1,38 @@
+package com.hcl.employ;
+
+import java.util.List;
+
+import org.hibernate.Criteria;
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.AnnotationConfiguration;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.criterion.Order;
+import org.hibernate.criterion.Projection;
+import org.hibernate.criterion.Projections;
+import org.hibernate.criterion.Restrictions;
+
+public class EmploySearch {
+	public static void main(String[] args) {
+		Configuration cfg=new AnnotationConfiguration();
+		cfg.configure("hibernate.cfg.xml");
+		SessionFactory sf=cfg.buildSessionFactory();
+		Session s=sf.openSession();
+		Query q=s.createQuery("from Employ ");
+		Criteria c=s.createCriteria(Employ.class);
+		c.add(Restrictions.gt("basic", 29001));
+		
+		c.addOrder(Order.asc("basic"));
+		c.setProjection(Projections.property("name"));
+		List lst1=c.list();
+		List<Employ> lst=c.list();
+		List<Employ> lstEmploy=q.list();
+//		for(Employ x:lst){
+//			System.out.println(x.toString());
+//		}
+		System.out.println(lst1);
+	
+	}
+
+}

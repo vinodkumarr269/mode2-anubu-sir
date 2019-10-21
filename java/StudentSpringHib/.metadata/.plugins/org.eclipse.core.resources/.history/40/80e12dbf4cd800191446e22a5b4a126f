@@ -1,0 +1,10 @@
+package com.hcl.fi;
+
+public class EmployMain {
+public static void main(String[] args) {
+	EmpolyeeInterface e=Employee::new;
+	Employee employee=e.getEmployee(20,"hcl");
+	System.out.println(employee.getEmpNo());
+	System.out.println((employee.getEmpName()));
+}
+}
